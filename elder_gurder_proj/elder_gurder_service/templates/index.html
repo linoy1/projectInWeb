@@ -1,0 +1,40 @@
+
+{% extends 'base.html' %}
+{% block body_block %}
+     {% load crispy_forms_tags %}
+    
+    <div class="container">
+        <div class="d-flex justify-content-center h-100">
+            <div class="card">
+                <div class="card-header">
+                    {% if user.is_authenticated  %}
+                        <h2> 
+                            Welcome
+                            {{ user.email }}
+                        </h2>
+                        <h4>
+                            {{ user.username }}
+                        </h4>
+                    {% else %}
+                        <h3>ברוכים הבאים</h3>
+
+                        <div class="card-body">
+                            <form class="moveRight" method="POST" action="">
+                                {% csrf_token %}
+                                {{ form|crispy }}
+                                
+                                <div class="form-group">
+                                    <input type="submit" value="התחבר" class=" btn float-right login_btn">
+                                </div>
+                            </form>
+                        </div>
+                    {% endif %}
+                    
+
+                </div>
+            </div>
+        </div>
+
+
+{% endblock %}
+

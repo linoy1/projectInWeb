@@ -1,0 +1,205 @@
+        *html {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+        html,
+        header,
+        aside,
+        article,
+        section,
+        footer,
+        main {
+            display: block;
+        }
+        
+        #logo {
+            margin: 0px auto;
+            display: block;
+            background-image: url("/static/images/logo.png");
+            background-repeat: no-repeat;
+            width: 95%;
+            height: 100px;
+            /* margin-left: 500px; */
+        }
+        
+        header {
+            background-color: #eeeeee;
+        }
+        
+        html,
+        body {
+            font-family: 'Numans', sans-serif;
+        }
+        
+        .container {
+            height: 100%;
+            align-content: center;
+        }
+        
+        .card {
+            margin: 0 auto;
+            width: 150%;
+        }
+        
+        .card-block ul li {
+            list-style-type: none;
+        }
+        
+        .card {
+            height: 370px;
+            margin-top: auto;
+            margin-bottom: auto;
+            width: 400px;
+            background-color: #E5DBDB !important;
+            text-align: center;
+        }
+        
+        .row a {
+            left: 100px;
+        }
+        
+        .social_icon span {
+            font-size: 60px;
+            margin-left: 10px;
+            color: #FFC312;
+        }
+        
+        .social_icon span:hover {
+            color: white;
+            cursor: pointer;
+        }
+        
+        .card-header h3 {
+            color: white;
+        }
+        
+        .social_icon {
+            position: absolute;
+            right: 20px;
+            top: -45px;
+        }
+        
+        .input-group-prepend span {
+            width: 50px;
+            background-color: #FFC312;
+            color: black;
+            border: 0 !important;
+        }
+        
+        input:focus {
+            outline: 0 0 0 0 !important;
+            box-shadow: 0 0 0 0 !important;
+        }
+        
+        .remember {
+            color: white;
+        }
+        
+        .remember input {
+            width: 20px;
+            height: 20px;
+            margin-left: 15px;
+            margin-right: 5px;
+        }
+        
+        .center_btn {
+            margin-left: 10;
+        }
+        
+        .login_btn {
+            color: black;
+            background-color: #FFC312;
+            width: 100px;
+        }
+        
+        .login_btn:hover {
+            color: black;
+            background-color: white;
+        }
+        
+        .links {
+            color: white;
+            margin-top: 60px;
+        }
+        
+        .links a {
+            margin-left: 4px;
+        }
+        
+        .card-header h3 {
+            text-align: center;
+        }
+        
+        .moveRight {
+            text-align: right;
+        }
+        /* table page */
+        
+        .navbar {
+            height: -20px;
+        }
+        
+        .nav-item {
+            margin-left: 120px;
+        }
+        
+        .form-control {
+            text-align: right;
+        }
+        
+        .peopleheader h1 {
+            text-align: center;
+        }
+        
+        table tbody {
+            text-align: right;
+        }
+        
+        .table thead tr th {
+            border-spacing: 5em;
+            margin-left: 100px;
+        }
+        /* people_detail*/
+        
+        .peopledetail {
+            background-color: #353a40;
+            color: silver;
+            height: 400px;
+            width: 500px;
+            margin-top: 50px;
+        }
+        
+        .peopledetail ul {
+            list-style-type: none;
+            text-align: right;
+        }
+        
+        .people_list ul li {
+            margin-top: 20px;
+        }
+        /* add_vis */
+        
+        h1.nice {
+            font-family: 'Lobster', cursive;
+        }
+        
+        input[type='number'] {
+            -moz-appearance: textfield;
+        }
+        
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            display: none;
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        
+        .add_visit .row {
+            margin-left: 300px;
+        }
+        
+        .hide_row {
+            display: none;
+        }
